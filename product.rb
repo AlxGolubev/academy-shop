@@ -10,6 +10,8 @@ class Product
   end
 
   def volume
-    @width * @height * @depth
+    volume = @width * @height * @depth
+
+    volume < 1 ? 1 : volume
   end
 end

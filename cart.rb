@@ -1,5 +1,6 @@
 class Cart
   attr_reader :products
+
   def initialize(user, products)
     @user = user
     @products = products
